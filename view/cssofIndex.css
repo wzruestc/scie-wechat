@@ -1,0 +1,31 @@
+@charset="UTF-8"
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+}
+#box{
+	width: 1170px;
+}
+.module{
+	width: 390px;
+}
+.col-md-4{
+	height:390px;
+}
+.color-block{
+	width: 390px;
+	height: 390px;
+}
+.copyright-color-block{
+	background: #027BE2;
+	width: 390px;
+	height: 390px;
+}
+.copyright{
+	text-align: center;
+	font-size: 2em;
+	padding-top: 130px;
+}
+.email{
+	text-align: center;
+	font-size: 1.5em;
+}
