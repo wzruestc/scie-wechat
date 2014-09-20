@@ -1,7 +1,4 @@
 @charset="UTF-8"
-a:link,a:visited,a:hover,a:active{
-	text-decoration: none;
-}
 #box{
 	width: 1170px;
 }
