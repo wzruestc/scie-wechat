@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="./view/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="./view/cssofIndex.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="./view/cssofassistant.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -15,21 +14,45 @@
 		    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		    <![endif]-->
 	</head>
+	<style type="text/css">
+		#box{
+			width: 1170px;
+		}
+	</style>
 	<body>
-	<div class="container" style="background-color: #49B294;">
+	<div class="container" style="background-color: #2B76A1;">
+		<div id="box" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#box" data-slide-to="0" class="active"></li>
+				<li data-target="#box" data-slide-to="1"></li>
+				<li data-target="#box" data-slide-to="2"></li>
+				<li data-target="#box" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="./img/4.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./img/5.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./img/6.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./img/8.jpg" alt="">
+				</div>
+			</div>
+			<a class="left carousel-control" href="#">&lsaquo;</a>
+			<a class="right carousel-control" href="#">&rsaquo;</a>
+		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<a href=""><img src="./img/schooltime.png" class="assistant-img">校历</a>
+				<a><img src="./img/time.png" class="assistant-img">学习指导</a>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<a href=""><img src="./img/time.png" class="assistant-img">校车时刻</a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<a href=""><img src="./img/map.png" class="assistant-img">校园地图</a>
+				<a><img src="./img/time.png" class="assistant-img">常用软件</a>·
 			</div>
 		</div>
 		<p class="copyright">powered by <strong>IEC</strong></p>

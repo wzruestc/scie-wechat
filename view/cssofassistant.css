@@ -25,7 +25,8 @@ body{
 	height: 130px;
 }
 .copyright{
-	bottom: 0px;
+	bottom: 5px;
 	text-align: center;
 	font-size: 1.5em;
+	margin-top: 5px;
 }
